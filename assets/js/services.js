@@ -6,7 +6,7 @@ var backendlessSettings = {
   "async": true,
   //"crossDomain": true,
   //"url": "http://api.backendless.com/v1/data/Users?where=personal_no%3D123456",
-  "url": "http://api.backendless.com/v1/data/budgets?where=personal_no%3D"+personalNo,
+  "url": "https://api.backendless.com/v1/data/budgets?where=personal_no%3D"+personalNo,
   "method": "GET",
   "headers": {
     "application-id": "45D1E21C-C95D-1B01-FF65-5B57CBBF3E00",
